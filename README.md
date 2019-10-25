@@ -1,8 +1,8 @@
 # Shape and action unit extraction of 3D human face meshes by multilinear dimensionality reduction
-This work aims to create a model able to distinct shape and action units form 3D human face meshes.
-The adopted dataset was gathered by using Kinect and consist of 360 3D representation of human faces.
+This work aims to create a model able to discern shape and action units form 3D human face meshes.
+The adopted dataset was acquired by using Kinect and consist of 360 3D representation of human faces.
 More precisely, 20 different users performed 6 specific facial expressions (happy, sad, fearful, angry, disgusted, surprised) by using 3 emphasis degree (low, medium, high).
-The collected dataset was labelled and then modelled in a three-dimensional tensor. Moreover was applied a multilinear dimensionality reduction technique (HOSVD).
+The collected dataset was labelled and then modelled in a three-dimensional tensor. Then, it was applied a multilinear dimensionality reduction technique (Higher-order singular value decomposition - HOSVD).
 This process allows to separately extract the face deformation features related to the **shape units** and the **action units**.
 These specific features are finally exploited to independently rebuild the user human face by using much fewer data with respect to the starting dataset, maintaining about 90% of variance.
 
