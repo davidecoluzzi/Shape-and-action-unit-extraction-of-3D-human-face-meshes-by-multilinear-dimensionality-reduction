@@ -2,7 +2,9 @@
 This work aims to create a model able to discern the parameters of shape and action units from 3D human face meshes.
 The adopted dataset was acquired by using Kinect and consist of 360 3D representation of human faces.
 More precisely, 20 different users performed 6 specific facial expressions (happy, sad, scared, angry, disgusted, surprised) by using 3 emphasis degree (low, medium, high).
+
 The collected dataset was labelled and then modelled in a three-dimensional tensor. Then, a multilinear dimensionality reduction technique (Higher-order singular value decomposition - HOSVD) was applied to separately extract the face deformation features related to the **shape units** and the **action units**.
+
 These specific features are finally exploited to independently rebuild the user human face by using much fewer data with respect to the starting dataset, specifically the 83% less of the floating point values, maintaining approximately 90% of variance.
 
 
@@ -20,9 +22,7 @@ All listed files are located in the folder called Matlab\.
 
 Matlab acquisition code is called **AcquireData.m**. Once the Kinect is connected to the computer, run this file and then follow the instructions given by the command line. This software allows representing a 3D face mesh in a structured array, which will be saved in the Matlab\Dataset_Struct folder.
 
-
 To convert the structured array into a three-dimensional point model execute the file **savePointModel.m** which save its results in a .mat file located in the Matlab\Dataset_PointModel directory. To convert the resulting files in .CSV format, run the file **convertToCsv.m** which create a folder Matlab\Dataset_Csv containing the reformatted files.
-
 
 To display 3D meshes saved in files .mat or .csv file execute **LoadData_mat.m** or **LoadData_csv.m**, respectively by typing the desired file name in the command line.
 
