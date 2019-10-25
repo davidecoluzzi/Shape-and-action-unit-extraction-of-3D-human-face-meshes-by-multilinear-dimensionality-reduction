@@ -21,6 +21,8 @@ All listed files are located in the folder called Matlab\.
 Matlab acquisition code is called **AcquireData.m**. Once the Kinect is connected to the computer, run this file and then follow the instructions given by the command line. This software allows representing a 3D face mesh in a structured array, which will be saved in the Matlab\Dataset_Struct folder.
 To convert the structured array into a three-dimensional point model execute the file **savePointModel.m** which save its results in a .mat file located in the Matlab\Dataset_PointModel directory. To convert the resulting files in .CSV format, run the file **convertToCsv.m** which create a folder Matlab\Dataset_Csv containing the reformatted files.
 To display 3D meshes saved in files .mat or .csv file execute **LoadData_mat.m** or **LoadData_csv.m**, respectively by typing the desired file name in the command line.
+
+
 Two examples extracted from our dataset are shown in the figure below.
 ![alt text](example.jpg)
 
@@ -48,6 +50,7 @@ Outputs will be saved in a file called Face1.csv that can be viewed in Matlab by
 ### Graphic interface
 Graphic interface files are located in the folder Python\.idea.
 Run file **HosvdGUI.py** to open the interface that allows changing the shape and action units parameters independently.
+
 
 A view of the developed interface is shown in the figure below.
 ![alt text](3D_face.jpg)
