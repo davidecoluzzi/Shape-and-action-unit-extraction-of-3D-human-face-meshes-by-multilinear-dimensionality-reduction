@@ -5,7 +5,7 @@ More precisely, 20 different users performed 6 specific facial expressions (happ
 
 The collected dataset was labelled and then modelled in a three-dimensional tensor. Then, a multilinear dimensionality reduction technique (Higher-order singular value decomposition - HOSVD) was applied to separately extract the face deformation features related to the **shape units** and the **action units**.
 
-These specific features are finally exploited to independently rebuild the user human face by using much fewer data with respect to the starting dataset, specifically the 83% less of the floating point values, maintaining approximately 90% of variance.
+These specific features are finally exploited to independently rebuild the user human face by using much fewer data with respect to the starting dataset, specifically the 83% less, maintaining approximately 90% of variance.
 
 
 ## To Start
