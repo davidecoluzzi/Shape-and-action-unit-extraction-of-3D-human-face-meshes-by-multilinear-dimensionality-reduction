@@ -11,7 +11,7 @@ These specific features are finally exploited to independently rebuild the user 
 ### Requirements
 
 The proposed code was written in two different languages:
-[Matlab](https://it.mathworks.com/downloads/)  and [python 3.6](https://www.python.org/downloads/).
+[Matlab](https://it.mathworks.com/downloads/)  and [Python 3.6](https://www.python.org/downloads/).
 
 ## Execution
 
