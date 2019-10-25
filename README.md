@@ -18,7 +18,7 @@ The proposed code was written in two different languages:
 ### Kinect-based 3D mash acquisition
 All listed files are located in the folder called Matlab/.
 
-Matlab acquisition code is called **AcquireData.m**. Once the computer is connected to the Kinect, run this file and then follow the instructions given by the command line. This software allows representing a 3D face mesh in a structured array, which will be saved in the Dataset \ Struct & folder.
+Matlab acquisition code is called **AcquireData.m**. Once the Kinect is connected to the computer, run this file and then follow the instructions given by the command line. This software allows representing a 3D face mesh in a structured array, which will be saved in the Matlab\Dataset_Struct folder.
 To convert the structured array into a three-dimensional point model execute the file **savePointModel.m** which save its results in a .mat file located in the Dataset \ PointModel / directory. To convert the resulting files in .CSV format, run the file **convertToCsv.m** which create a folder Dataset \Csv containing the reformatted files.
 To display 3D meshes saved in files .mat or .cvs execute **LoadData \ mat.m** or **LoadData \ csv.m**, respectively by typing the desired file name in the command line.
 
