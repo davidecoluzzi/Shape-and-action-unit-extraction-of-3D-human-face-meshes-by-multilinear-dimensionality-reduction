@@ -53,8 +53,8 @@ If you want to display a specific reconstructed face using the reduced tensor, s
 Outputs will be saved in a file called Face1.csv that can be viewed in Matlab by following the same instructions given in the previous section.
 
 
-### Graphic interface
-Graphic interface files are located in the folder Python\.idea.
+### Graphical user interface
+Graphical user interface files are located in the folder Python\.idea.
 Run file **HosvdGUI.py** to open the interface that allows changing the shape and action units parameters independently.
 
 
