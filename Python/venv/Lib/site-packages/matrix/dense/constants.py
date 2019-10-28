@@ -1,0 +1,1 @@
+from matrix.constants import PERMUTATION_METHODS, DECOMPOSITION_TYPES

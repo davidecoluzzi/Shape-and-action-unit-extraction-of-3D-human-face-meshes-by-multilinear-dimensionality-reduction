@@ -1,0 +1,5 @@
+numpy
+scipy>=0.19
+
+[decompose_sparse]
+scikit-sparse>=0.4.2
