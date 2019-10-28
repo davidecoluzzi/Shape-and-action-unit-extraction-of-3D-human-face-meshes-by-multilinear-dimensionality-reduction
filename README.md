@@ -33,7 +33,7 @@ Two examples extracted from our dataset are shown in the figure below.
 ![alt text](example.jpg)
 
 ### Shape and action units building
-All files are located in the folder called Python \ .idea.
+All files are located in the folder called Python\ .idea.
 The complete code is in the file **Hosvd.py**. It automatically read the files in the Matlab\Dataset_Csv directory and exploit them to create the tensor that is provided as input to perform the HOSVD. Whether you wish to change the dimensionality reduction output components number, modify the following portion of the code, replacing 8 with the number of components desired respectively for identity and expression:
 
 
