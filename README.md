@@ -68,4 +68,4 @@ A view of the developed interface is shown in the figure below.
 ## Authors
 
 * **Riccardo Presotto**  -  riccardo.presotto@unimi.it
-* **Davide Coluzzi**  - davide.coluzzi@unimi.it
+* **Davide Coluzzi**  - davide.coluzzi@polimi.it
